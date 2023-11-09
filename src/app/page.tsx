@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 
 import { Header } from '../components/Header/Header';
 import { DoctorList } from '../components/Doctors/DoctorList';
@@ -10,6 +10,7 @@ export default function Home() {
      <Header title="Hello World" />
 
      <DoctorList />
+     
     </>
   )
 }
