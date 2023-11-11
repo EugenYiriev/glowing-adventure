@@ -4,8 +4,9 @@ import { useRouter } from 'next/router';
 import { DoctorCard } from '../../src/components/Doctors/DoctorCard/DoctorCard';
 
 const doctors = [
-  { id: 1, name: 'Doctor 1', specialty: 'Main' },
-  { id: 2, name: 'Doctor 2', specialty: 'Med brother' },
+  { id: 1, name: 'Mihail Popesko', specialty: 'Ophthalmologist' },
+  { id: 2, name: 'Linda Dumitrescu', specialty: 'Surgeon' },
+  { id: 3, name: 'Pol Secruck', specialty: 'Dentist' },
 ];
 
 const DoctorPage = () => {

@@ -3,8 +3,9 @@ import React from 'react';
 import Link from 'next/link';
 
 const doctors = [
-    { id: 1, name: 'Doctor 1'},
-    { id: 2, name: 'Doctor 2'},
+    { id: 1, name: 'Mihail Popesko' },
+    { id: 2, name: 'Linda Dumitrescu'},
+    { id: 3, name: 'Pol Secruck' },
 ];
 
 export function DoctorList() {
